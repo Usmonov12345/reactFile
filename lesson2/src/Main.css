@@ -1,0 +1,291 @@
+*{
+    list-style: none;;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;;
+    padding: 0 15px;
+}
+
+.header{
+    padding: 10px 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Heaer__list{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    gap:70px;
+}
+.logoName__title{
+    color: #F75532;
+
+}
+
+.Header__item__links{
+    color: black;
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.Header__item__links:hover{
+    color:#F75532;
+    border-bottom: 2px solid #F75532;
+}
+
+.Header__item__links1{
+    font-size: 23px;
+    color: #F75532;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.Header__item__links1:hover{
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+.Header__btn{
+    padding: 8px 13px;
+    font-size: 18px;
+    color: white;
+    background: #FE4610;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.Header__btn:active{
+    transform: scale(0.9);
+
+}
+
+
+.Header__btn:hover{
+    background-color: #f75632e2;
+    box-shadow: 2px 4px 12px #F75532;
+
+
+}
+.logoName__title__span{
+    color: black;
+    margin-left: 10px;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+}
+
+
+   /*=========================== main star ============================= */
+
+.card{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__left__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #001F29;
+    width: 75%;
+
+}
+
+.card__left__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B9C0C1;
+    width: 65%;
+    padding: 20px 0;
+
+}
+.card__left__btn1{
+    background: #FE4610;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+
+}
+.card__left__btn1:hover{
+    box-shadow: 2px 4px 12px #F75532;
+}
+
+.card__left__btn2{
+    color: #FE4610;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #F75532;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.card__left__btn2:hover{
+    box-shadow: 2px 4px 12px #F75532;
+
+}
+.card__left__btn1:active{
+    transform: scale(0.9);
+}
+.card__left__btn2:active{
+    transform: scale(0.9);
+}
+
+.card__right{
+    display: flex;
+    }
+.card__right__box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10%;
+
+}
+.card__right__box__li{
+    padding: 100px;
+    background: #FFE1D8;
+    border-radius: 10px;
+    transition: 1s;
+}
+.card__right__box__li:hover{
+    border-radius: 10pc;
+    transform: rotate(360deg);
+}
+.card__right__card{
+    padding: 10px 80px;
+    background-color: #FFE1D8;
+    height: 51vh;
+    border-radius: 10px;
+
+}
+
+/* twwo section */
+
+.two-section{
+    padding-top: 60px;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.two__left__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.two__left__item__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #001F29;
+    padding: 10px 0 10px 30px ;
+}
+.two__left__item{
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
+    height: 100px;
+    transition: 0.2s;
+    width: 150px;
+    border: 1px solid rgba(204, 204, 204, 0.249);
+
+
+}
+
+.two__left__item:hover{
+    height: 150px;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.17);
+    border: 1px solid transparent;
+
+}
+
+.two__left__item__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #B9C0C1;
+    padding: 0px 0 10px 30px ;
+
+}
+
+.two__left__item1{
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 150px;
+    border: 1px solid rgba(204, 204, 204, 0.249);
+    
+
+}
+.two__left__item1:hover{
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.17);
+    border: 1px solid transparent;
+}
+.two__left__item__btn{
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #F75532;
+    background-color: transparent;
+    color: #F75532;
+    font-size: 19px;
+    display: block;
+    margin-top: 10%;
+}
+.two__right{
+    margin-left: 400px;
+
+}
+.two__right__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70%;
+}
+
+.two__right__item{
+    padding: 4px;
+    background: #FFE1D8;    
+    border-radius: 10px;
+    transition: 0.3s;
+}

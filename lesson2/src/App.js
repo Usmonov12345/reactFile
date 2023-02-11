@@ -1,9 +1,11 @@
-
-
+import Header from "./componet/Header";
+import Main from "./componet/Main";
+import "./Main.css"
 function App() {
   return (
     <div className="App">
-      salom
+      < Header/>
+      < Main/>
     </div>
   );
 }
